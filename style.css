@@ -22,7 +22,7 @@
     margin: 0% 16px;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
-
+color: white;
 }
 
 
@@ -36,8 +36,9 @@
     color: white;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 90px 0;
     display: flex;
+
 }
 
 
@@ -95,23 +96,8 @@ font-family: 'Inter', sans-serif;
 
 .imagem-rodape{
    height: 40px;
-   padding: 12px 0;
+   padding: 10px 0;
   width: 4cm;
 }
 
-.estudante-nome{
-    color: white;
-}
-
-.escola-texto-um{
-    font-family: 'Inter', sans-serif;
-}
-
-.escola-texto-dois{
-    font-family: 'Inter', sans-serif;
-}
-
-.estudante-nome{
-    color: black;
-}
 
