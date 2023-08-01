@@ -4,7 +4,7 @@
 }
 
 .cabeçalho {
-    background-color: #121422;
+    background-color: #383D58;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -18,74 +18,83 @@
 }
 
 .cabecalho-lista-item{
+    color: white;
     display: inline-block;
     margin: 0% 16px;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
-color: white;
 }
 
 
 .escola-imagem{
-    width: 40%;
-   
+    width: 35%;
+    display: inline-block;
+    margin: 4% 120px;
+    align-items: flex-start;
+}
+.escola-intervalo{
+    width: 30%;
+    display: inline-block;
+    margin: 4% 2px;
+    align-items: flex-end;
 }
 
 .escola{
-    background-image: linear-gradient(#292d42,#337993);
+    background-image: linear-gradient(#292d42,#337993); 
     color: white;
     justify-content: center;
     align-items: center;
-    padding: 90px 0;
-    display: flex;
-
+    padding: 60px 0;
 }
 
 
 
 .escola-div-conteudo{
-width: 40%;
-font-size: 20px;
-margin-right: 5cm;
+width: 50%;
+margin-inline-start: 2cm;
+font-size: 18px;
+color: rgb(255, 255, 255);
+font-family: 'Inter', sans-serif;
 }
 
 .escola-titulo{
     padding: 35px 0;
-    font-family: 'Ysabeau SC', sans-serif;
-   
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
 }
 
+.escola-texto-um{
+    font-family: 'Inter', sans-serif;
+}
 
 .estudante-imagem{
-    width: 170px;
-    height: 170px;
-    align-items: center;
-    padding: 20px 0;
+    width: 150px;
 }
 
 .estudante-icone{
     width: 24px;
-    padding: 15px 0;
+    padding: 15px;
 }
 
 .estudante-div{
     text-align: center;
+
 }
 
 .estudante-titulo{
+   color: white;
     text-align: center;
-    padding: 40px 0;
-    background-color: #2c6a81;
-    
+    padding: 60px 0;
+    background: #313131;
+    font-family: 'Inter', sans-serif;
 }
 .estudante-todos{
     display: grid;
     grid-template-columns: 22% 22% 22% 22%;
 justify-content: center;
-padding: 10px 0;
-background: #2c6a81;
+padding: 15px 0;
+background: #313131;
 color: white;
-font-family: 'Inter', sans-serif;
 }
 
 .rodape{
@@ -96,8 +105,27 @@ font-family: 'Inter', sans-serif;
 
 .imagem-rodape{
    height: 40px;
-   padding: 10px 0;
+   padding: 12px 0;
   width: 4cm;
+}
+    
+.escola-div-conteudo-emilio{
+    width: 50%;
+    margin-inline-start: 2cm;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+.emilio-imagem{
+    width: 20%;
+    display: inline-block;
+    margin: 4% 120px;
+    align-items: flex-start;
+}
+
+.escola-texto-um-em{
+    color: rgb(255, 255, 255);
 }
 
 
